@@ -1,0 +1,23 @@
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <road name="my_road">
+      <width>7.34</width>
+      <point>0 0 0.1</point>
+      <point>5 2 0.1</point>
+      <point>8 5 0.1</point>
+      <point>10 10 0.1</point>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Blue</name>
+        </script>
+      </material>
+    </road>
+  </world>
+</sdf>

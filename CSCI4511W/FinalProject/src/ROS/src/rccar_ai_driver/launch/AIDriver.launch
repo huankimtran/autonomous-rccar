@@ -1,0 +1,3 @@
+<launch>
+    <node name="AIDriver" pkg="rccar_ai_driver" type="RCCarAI.py" output="screen"></node>
+</launch>

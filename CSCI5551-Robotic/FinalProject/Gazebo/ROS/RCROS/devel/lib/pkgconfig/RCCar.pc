@@ -1,0 +1,8 @@
+prefix=/home/huankimtran/Desktop/Working/CSCI5551-Robotic/FinalProject/Gazebo/ROS/RCROS/devel
+
+Name: RCCar
+Description: Description of RCCar
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

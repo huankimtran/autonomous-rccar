@@ -1,0 +1,2 @@
+RCCar
+-DCATKIN_DEVEL_PREFIX=/home/huankimtran/Desktop/Working/CSCI5551-Robotic/FinalProject/Gazebo/ROS/RCROS/devel -DCMAKE_INSTALL_PREFIX=/home/huankimtran/Desktop/Working/CSCI5551-Robotic/FinalProject/Gazebo/ROS/RCROS/install -G Unix Makefiles

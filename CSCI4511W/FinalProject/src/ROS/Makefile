@@ -1,0 +1,2 @@
+setup:
+	catkin_make

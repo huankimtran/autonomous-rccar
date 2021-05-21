@@ -1,0 +1,16 @@
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <name>bus</name>
+      <uri>model://bus</uri>
+      <pose frame=''>2 1 0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>

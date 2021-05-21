@@ -1,0 +1,6 @@
+Searcher                     Arad to Bucharest problem   Sibiu to Bucharest problem   Eforie to Timisoara problem
+breadth_first_tree_search    <  21/  22/  57/Buch>       <   9/  10/  26/Buch>        < 182/ 183/ 477/Timi>      
+breadth_first_graph_search   <   6/   9/  15/Buch>       <   3/   8/   9/Buch>        <  15/  19/  36/Timi>      
+depth_first_graph_search     <   7/   8/  17/Buch>       <   3/   4/  10/Buch>        <  11/  12/  28/Timi>      
+uniform_cost_search          <  12/  13/  30/Buch>       <   9/  10/  24/Buch>        <  19/  20/  44/Timi>      
+astar_search                 <   5/   6/  15/Buch>       <   4/   5/  12/Buch>        <  14/  15/  35/Timi>  

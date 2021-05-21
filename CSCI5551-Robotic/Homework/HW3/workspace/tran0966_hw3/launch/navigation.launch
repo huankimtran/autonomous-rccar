@@ -1,0 +1,4 @@
+<launch>
+    <node name="csci_5551_hw3_tester" pkg="tran0966_hw3" type="test_node_standin.py" output="screen"/>
+    <node name="navigation"  pkg="tran0966_hw3" type="navigation.py" output="screen"/>
+</launch>

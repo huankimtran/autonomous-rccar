@@ -1,0 +1,15 @@
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <name>RCCar</name>
+      <uri>/home/huankimtran/Desktop/Working/CSCI5551-Robotic/FinalProject/Gazebo/Car/RCCar_Wheel_Rolling</uri>
+      <pose frame=''>0 0 0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>

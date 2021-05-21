@@ -1,0 +1,3 @@
+[submodule "FinalProject/Gazebo/Utils/py3gazebo"]
+	path = FinalProject/Gazebo/Utils/py3gazebo
+	url = https://github.com/wil3/py3gazebo.git

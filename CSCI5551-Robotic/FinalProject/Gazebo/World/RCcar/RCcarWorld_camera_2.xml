@@ -1,0 +1,70 @@
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <name>RCCar</name>
+      <uri>/home/huankimtran/Desktop/Working/CSCI5551-Robotic/FinalProject/Gazebo/Car/RCCar_Camera</uri>
+      <pose frame=''>0.15 0.15 0.03 0 0 0</pose>
+    </include>
+    <!-- Road portion real width is 30cm-->
+    <road name="right_lane">
+      <width>0.025</width>
+      <point>0 0 0.001</point>
+      <point>5.3 0 0.001</point>
+      <point>5.3 2.3 0.001</point>
+      <point>0 2.3 0.001</point>
+      <point>0 0 0.001</point>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Blue</name>
+        </script>
+      </material>
+    </road>
+    <road name="left_lane">
+      <width>0.025</width>
+      <point>0.3 0.3 0.001</point>
+      <point>5 0.3 0.001</point>
+      <point>5 2 0.001</point>
+      <point>0.3 2 0.001</point>
+      <point>0.3 0.3 0.001</point>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Blue</name>
+        </script>
+      </material>
+    </road>
+    <!-- <road name="bottom_road">
+      <width>0.348</width>
+      <point>0 0 0.001</point>
+      <point>3 0 0.001</point>
+      <point>3 0.4 0.001</point>
+      <point>3 1 0.001</point>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Blue</name>
+        </script>
+      </material>
+    </road>
+    <road name="top_road">
+      <width>0.3</width>
+      <point>0 0 0.002</point>
+      <point>3 0 0.002</point>
+      <point>3 0.4 0.002</point>
+      <point>3 1 0.0.002</point>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Grey</name>
+        </script>
+      </material>
+    </road> -->
+  </world>
+</sdf>
